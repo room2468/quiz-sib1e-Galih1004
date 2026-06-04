@@ -19,4 +19,5 @@ read -r first_name last_name
 #   Use: echo "$last_upper, $first_title"
 
 # TODO: Replace this line with your implementation
-echo "TODO"
+read -r first last
+echo "${last^^}, ${first^}"
